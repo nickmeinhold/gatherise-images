@@ -1,0 +1,19 @@
+{
+  "configurations": [
+    {
+      "request": "launch",
+      "name": "Debug",
+      "type": "node",
+      "program": "${workspaceFolder}/app.ts",
+      "cwd": "${workspaceFolder}",
+      "runtimeExecutable": "/opt/homebrew/bin/deno",
+      "runtimeArgs": [
+        "run",
+        "--unstable",
+        "--inspect-wait",
+        "--allow-all"
+      ],
+      "attachSimplePort": 9229
+    }
+  ]
+}

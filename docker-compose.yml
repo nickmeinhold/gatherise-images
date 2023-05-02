@@ -1,0 +1,9 @@
+version: '3'
+
+services:
+  web:
+    build: .
+    container_name: gatherise-images-container
+    image: gatherise-images-image
+    ports:
+      - "8000:8000"
