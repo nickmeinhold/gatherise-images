@@ -7,7 +7,7 @@ const SPACE_ID = "slyLWIDvhNxBPDv6\\Your%20WebSocket%20API%20Server";
 ////////////////////
 
 const data = await Deno.readFile('./test_image.jpg');
-// console.log(data.buffer);
+console.log(data.buffer);
 // const buffer = new Buffer(data.buffer);
 // const blob = new Blob([data]);
 
